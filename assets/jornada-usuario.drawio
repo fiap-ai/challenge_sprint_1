@@ -1,0 +1,171 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0" version="24.8.6">
+  <diagram name="Jornada do Usuário" id="ju_diagram">
+    <mxGraphModel dx="1026" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ju_0" />
+        <mxCell id="ju_1" parent="ju_0" />
+        
+        <!-- Título -->
+        <mxCell id="ju_title" value="Jornada do Usuário - Chatbot Solubio" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="ju_1">
+          <mxGeometry x="290" y="5" width="240" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Etapas Principais -->
+        <!-- Primeiro Contato -->
+        <mxCell id="ju_first_contact" value="PRIMEIRO CONTATO&#xa;📱" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E3F2FD;verticalAlign=top;fontStyle=1" vertex="1" parent="ju_1">
+          <mxGeometry x="64" y="80" width="160" height="200" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_channels" value="• 🌐 Website&#xa;• 💬 WhatsApp&#xa;• 📧 Email&#xa;• 📱 App" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14" vertex="1" parent="ju_1">
+          <mxGeometry x="84" y="140" width="120" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Identificação -->
+        <mxCell id="ju_identification" value="IDENTIFICAÇÃO&#xa;🔐" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E3F2FD;verticalAlign=top;fontStyle=1" vertex="1" parent="ju_1">
+          <mxGeometry x="264" y="80" width="160" height="200" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_auth_steps" value="• 🔑 Login&#xa;• 🔍 Verificação&#xa;• ➕ Cadastro" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14" vertex="1" parent="ju_1">
+          <mxGeometry x="284" y="140" width="120" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Análise -->
+        <mxCell id="ju_analysis" value="ANÁLISE &amp; ROTEAMENTO&#xa;⚡" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E3F2FD;verticalAlign=top;fontStyle=1" vertex="1" parent="ju_1">
+          <mxGeometry x="464" y="80" width="160" height="200" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_analysis_steps" value="• 🎯 Router&#xa;• 🤖 IA&#xa;• 📋 Serviços" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14" vertex="1" parent="ju_1">
+          <mxGeometry x="484" y="140" width="120" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Resolução -->
+        <mxCell id="ju_resolution" value="RESOLUÇÃO&#xa;✅" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E3F2FD;verticalAlign=top;fontStyle=1" vertex="1" parent="ju_1">
+          <mxGeometry x="664" y="80" width="160" height="200" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_resolution_steps" value="• ✨ Conclusão&#xa;• 📝 Feedback&#xa;• ➡️ Próximos Passos" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14" vertex="1" parent="ju_1">
+          <mxGeometry x="684" y="140" width="120" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Fluxo de Roteamento -->
+        <mxCell id="ju_routing_flow" value="FLUXO DE ROTEAMENTO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="ju_1">
+          <mxGeometry x="264" y="320" width="300" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_router_box" value="⚡ ROUTER" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFF3E0;verticalAlign=top;fontStyle=1" vertex="1" parent="ju_1">
+          <mxGeometry x="64" y="360" width="700" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Etapas do Router -->
+        <mxCell id="ju_input" value="📥 Entrada&#xa;Mensagem" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFFFFF" vertex="1" parent="ju_1">
+          <mxGeometry x="84" y="400" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_router_analysis" value="🎯 Análise&#xa;Router" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFFFFF" vertex="1" parent="ju_1">
+          <mxGeometry x="264" y="400" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_ai_selection" value="🤖 Seleção&#xa;IA" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFFFFF" vertex="1" parent="ju_1">
+          <mxGeometry x="444" y="400" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_response" value="✅ Resposta&#xa;Cliente" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFFFFF" vertex="1" parent="ju_1">
+          <mxGeometry x="624" y="400" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Distribuição por Complexidade -->
+        <mxCell id="ju_complexity_dist" value="DISTRIBUIÇÃO POR COMPLEXIDADE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="ju_1">
+          <mxGeometry x="264" y="520" width="300" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_models_box" value="🤖 MODELOS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#F3E5F5;verticalAlign=top;fontStyle=1" vertex="1" parent="ju_1">
+          <mxGeometry x="64" y="560" width="700" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Modelos de IA -->
+        <mxCell id="ju_gemini" value="Gemini&#xa;Simples&#xa;25%" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFFFFF" vertex="1" parent="ju_1">
+          <mxGeometry x="84" y="600" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_claude" value="Claude&#xa;Contextual&#xa;70%" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFFFFF" vertex="1" parent="ju_1">
+          <mxGeometry x="264" y="600" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_gpt4" value="GPT-4&#xa;Complexo&#xa;5%" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFFFFF" vertex="1" parent="ju_1">
+          <mxGeometry x="444" y="600" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_human" value="Humano&#xa;Escalação&#xa;Especial" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFFFFF" vertex="1" parent="ju_1">
+          <mxGeometry x="624" y="600" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Exemplos de Interação -->
+        <mxCell id="ju_examples" value="EXEMPLOS DE INTERAÇÃO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="ju_1">
+          <mxGeometry x="264" y="720" width="300" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_cases_box" value="💬 CASOS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E8F5E9;verticalAlign=top;fontStyle=1" vertex="1" parent="ju_1">
+          <mxGeometry x="64" y="760" width="700" height="160" as="geometry"/>
+        </mxCell>
+
+        <!-- Casos de Uso -->
+        <mxCell id="ju_faq" value="FAQ/Simples:&#xa;Cliente → Router → Gemini → Resposta Rápida" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12" vertex="1" parent="ju_1">
+          <mxGeometry x="84" y="800" width="660" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_contextual" value="Contextual:&#xa;Cliente → Router → Claude → Análise → Resposta" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12" vertex="1" parent="ju_1">
+          <mxGeometry x="84" y="830" width="660" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_complex" value="Complexo:&#xa;Cliente → Router → GPT-4 → Análise Detalhada → Resposta" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12" vertex="1" parent="ju_1">
+          <mxGeometry x="84" y="860" width="660" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_special" value="Especial:&#xa;Cliente → Router → Análise → Escalação → Atendimento Humano" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12" vertex="1" parent="ju_1">
+          <mxGeometry x="84" y="890" width="660" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Conexões -->
+        <!-- Entre Etapas Principais -->
+        <mxCell id="ju_conn1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ju_1" source="ju_first_contact" target="ju_identification">
+          <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_conn2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ju_1" source="ju_identification" target="ju_analysis">
+          <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_conn3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ju_1" source="ju_analysis" target="ju_resolution">
+          <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- No Router -->
+        <mxCell id="ju_conn4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ju_1" source="ju_input" target="ju_router_analysis">
+          <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_conn5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ju_1" source="ju_router_analysis" target="ju_ai_selection">
+          <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_conn6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ju_1" source="ju_ai_selection" target="ju_response">
+          <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Entre Modelos -->
+        <mxCell id="ju_conn7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ju_1" source="ju_gemini" target="ju_claude">
+          <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_conn8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ju_1" source="ju_claude" target="ju_gpt4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ju_conn9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ju_1" source="ju_gpt4" target="ju_human">
+          <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
